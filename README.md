@@ -31,11 +31,13 @@ Your Node Name
 Port prefix
 
 164
-# Clone project repository
+**Clone project repository**
+```
 cd && rm -rf firmachain
 git clone https://github.com/firmachain/firmachain
 cd firmachain
 git checkout 0.3.5-patch
+```
 
 # Build binary
 make install
