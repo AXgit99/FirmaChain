@@ -39,8 +39,10 @@ cd firmachain
 git checkout 0.3.5-patch
 ```
 
-# Build binary
+**Build binary**
+```
 make install
+```
 
 # Prepare cosmovisor directories
 mkdir -p $HOME/.firmachain/cosmovisor/genesis/bin
