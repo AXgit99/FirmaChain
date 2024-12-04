@@ -44,9 +44,11 @@ git checkout 0.3.5-patch
 make install
 ```
 
-# Prepare cosmovisor directories
+**Prepare cosmovisor directories**
+```
 mkdir -p $HOME/.firmachain/cosmovisor/genesis/bin
 ln -s $HOME/.firmachain/cosmovisor/genesis $HOME/.firmachain/cosmovisor/current -f
+```
 
 # Copy binary to cosmovisor directory
 cp $(which firmachaind) $HOME/.firmachain/cosmovisor/genesis/bin
