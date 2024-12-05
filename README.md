@@ -50,8 +50,10 @@ mkdir -p $HOME/.firmachain/cosmovisor/genesis/bin
 ln -s $HOME/.firmachain/cosmovisor/genesis $HOME/.firmachain/cosmovisor/current -f
 ```
 
-# Copy binary to cosmovisor directory
+**Copy binary to cosmovisor directory**
+```
 cp $(which firmachaind) $HOME/.firmachain/cosmovisor/genesis/bin
+```
 
 # Set node CLI configuration
 firmachaind config chain-id colosseum-1
