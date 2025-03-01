@@ -55,11 +55,12 @@ ln -s $HOME/.firmachain/cosmovisor/genesis $HOME/.firmachain/cosmovisor/current 
 cp $(which firmachaind) $HOME/.firmachain/cosmovisor/genesis/bin
 ```
 
-# Set node CLI configuration
+**Set node CLI configuration**
+```
 firmachaind config chain-id colosseum-1
 firmachaind config keyring-backend file
 firmachaind config node tcp://localhost:16457
-
+```
 # Initialize the node
 firmachaind init "Your Node Name" --chain-id colosseum-1
 
