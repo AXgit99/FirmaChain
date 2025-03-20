@@ -61,8 +61,11 @@ firmachaind config chain-id colosseum-1
 firmachaind config keyring-backend file
 firmachaind config node tcp://localhost:16457
 ```
-# Initialize the node
+
+**Initialize the node**
+```
 firmachaind init "Your Node Name" --chain-id colosseum-1
+```
 
 # Download genesis and addrbook files
 curl -L https://snapshots.nodejumper.io/firmachain/genesis.json > $HOME/.firmachain/config/genesis.json
