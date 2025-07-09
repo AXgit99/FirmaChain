@@ -78,6 +78,4 @@ curl -L https://snapshots.nodejumper.io/firmachain/addrbook.json > $HOME/.firmac
 sed -i -e 's|^seeds *=.*|seeds = "f89dcc15241e30323ae6f491011779d53f9a5487@mainnet-seed1.firmachain.dev:26656,04cce0da4cf5ceb5ffc04d158faddfc5dc419154@mainnet-seed2.firmachain.dev:26656,940977bdc070422b3a62e4985f2fe79b7ee737f7@mainnet-seed3.firmachain.dev:26656,20e1000e88125698264454a884812746c2eb4807@seeds.lavenderfive.com:16456,8542cd7e6bf9d260fef543bc49e59be5a3fa9074@seed.publicnode.com:26656,b85358e035343a3b15e77e1102857dcdaf70053b@seeds.bluestake.net:24156,931a7c680d28c84a8a53e4017a6eae0788ee7cf2@firmachain.ramuchi.tech:57656,35b9e0a0818d2c5e9ef187984872c0ad2dbd447c@firma.peer.stavr.tech:1036,637077d431f618181597706810a65c826524fd74@firmachain.rpc.nodeshub.online:16456"|' $HOME/.firmachain/config/config.toml
 ```
 
-
-Commit 1 line
 **Set minimum gas price**
